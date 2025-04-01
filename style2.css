@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color: black;
+    color: white;
+}
+.hamburger{
+    filter: invert(100%);
+    padding: 20px;
+     padding-right: 15;
+}
+.home{
+    filter: invert(100%);
+    padding: 20px;
+    padding-right: 15;
+}
+.logo{
+    padding: 0px;
+    margin: 1px;
+}
+.nav{
+    display: flex;
+   align-items: center;
+   
+}
+input[type="text"] {
+
+    background-color: #615a5a;
+    width: 40vw;
+    height: 7vh;
+    margin-left: 10vw;
+    border-radius: 5px;
+  }
+  .right div {
+    border: solid;
+    height: 20vh;
+    width: 8vw;
+    margin: 2vw;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+    /* align-items: center; */
+  }
+  .left{
+    border: solid;
+    width: 16vw;
+    height: 80vh;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+  }
+  .right{
+    display: flex;
+    
+  
+    border: solid ;
+    width: 84vw;
+    border-bottom-width: 0px;
+  
+  }
+  .body1{
+    display: flex;
+    
+  }
+.seekbar{
+  width: 100vw;
+   border: 2px solid white; 
+   position: absolute;
+   padding-top: 0.5vh;
+   background-color: white;
+   margin-top: 1.1vh;
+   cursor: pointer;
+}
+.seek{
+    filter: invert(100%); 
+    position: relative;
+    left: 0%;
+    transition-timing-function: linear;
+    transition-property: left;
+    transition-duration: 0.5s;
+    
+}
+
+.seek2{
+    margin-left: 99vw;
+    filter: invert(100%); 
+    position: relative;
+     transition-timing-function: linear;
+    transition-property: margin-left;
+    transition-duration: 10s;
+} 
+.play{
+    filter: invert(100%);
+    padding: 0px;
+    margin-left: 50vw;
+    cursor: pointer;
+    
+    
+}
+/* .footer{
+    display: flex;
+    
+} */
+
+
+
+

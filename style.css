@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-bottom-width: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    border-bottom-width: 0px;
+}
+.hamburger{
+    filter: invert(100%);
+    padding: 20px;
+     padding-right: 15;
+}
+.home{
+    filter: invert(100%);
+    padding: 20px;
+    padding-right: 15;
+}
+.logo{
+    padding: 0px;
+    margin: 1px;
+}
+.nav{
+    display: flex;
+   align-items: center;
+   
+}
+input[type="text"] {
+
+    background-color: #615a5a;
+    width: 40vw;
+    height: 7vh;
+    margin-left: 10vw;
+    border-radius: 5px;
+  }
+  .right div {
+    border: solid;
+    height: 20vh;
+    width: 8vw;
+    margin: 2vw;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom-width: 0px;
+    /* align-items: center; */
+  }
+  .left{
+    border: solid;
+    width: 16vw;
+    height: 80vh;
+    border-bottom-width: 0px;
+  }
+  .right{
+    display: flex;
+    
+  
+    border: solid ;
+    width: 84vw;
+    border-bottom-width: 0px;
+  
+  }
+  .body1{
+    display: flex;
+    border-bottom-width: 0px;
+  }
+.seekbar{
+  width: 100vw;
+  border: 2px solid white;
+  position: relative;
+  padding-top: 10vh;
+}
+
